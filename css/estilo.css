@@ -3,9 +3,10 @@ p{
 }
 h1{
     text-align: center; font-size: 30px; color: red;
+    font-family: verdana;
 }
 h2 {
-    color: red;
+    color: red;font-family: verdana;
 }
 body{
     background-color: gainsboro;
@@ -16,16 +17,23 @@ body{
     display: table-cell;
     float: left;
     margin-left: 20px;
-    
+    width: 1100px;
+    margin-top: -28px;
+  
 }
 .conteudo{
 display: table;
+background-color:palegoldenrod ;
+width: 1450px;
+
 }
 .img{
     display: table-cell;
 }
 .como{
-   display: table
+   display: table;
+   background: palegoldenrod;
+   width: 1450px;
 }
 .imagem{
     display: table-cell;
