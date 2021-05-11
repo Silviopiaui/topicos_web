@@ -1,6 +1,42 @@
 p{
-    text-align: center; 
+    text-align: left; font-size: 20px;
+}
+h1{
+    text-align: center; font-size: 30px; color: red;
+}
+h2 {
+    color: red;
 }
 body{
-    background-color: aquamarine;
+    background-color: gainsboro;
+    margin-top:0%;margin-left: 8%;margin-right :8%; 
+    margin-bottom: 0%;
+}
+.texto{
+    display: table-cell;
+    float: left;
+    margin-left: 20px;
+    
+}
+.conteudo{
+display: table;
+}
+.img{
+    display: table-cell;
+}
+.como{
+   display: table
+}
+.imagem{
+    display: table-cell;
+    float: left;
+
+}
+.para{
+    display: table-cell;
+    float: left;
+    margin-left: 20px;
+    width: 1000px;
+    margin-top: -18px;
+
 }
