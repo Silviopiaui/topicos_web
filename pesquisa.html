@@ -12,80 +12,80 @@
 
 <body>
     <a href="index.html">Home</a>
-
-    <div class="campo">
-        <h1 id="titulo">Pesquisa</h1>
-        <p id="subtitulo">Complete com suas informações</p><br>
-    </div>
-    <form>
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="nome"><strong>Nome</strong></label>
-                <input type="text" name="nome" id="nome" required>
-            </div>
-            <div class="campo2">
-                <label for="sobrenome"><strong>Sobrenome</strong></label>
-                <input type="text" name="sobrenome" id="sobrenome" required>
-            </div>
-            <div class="campo3">
-                <label for="email"><strong>Email</strong></label>
-                <input type="text" name="email" id="email" required>
-            </div>
-        </fieldset><br>
+    <!-- essa divgambiarra foi para ajustar o corpo no centro -->
+    <div class="gambiarra">
         <div class="campo">
-            <label>Qual o seu personagem favorito na série?</label>
-            <label>
-                <input type="radio" name="atendimento" value="Anakin" checked>Anakin Skywalker
-            </label>
-            <label>
-                <input type="radio" name="atendimento" value="Obi-Wan" checked>Obi-Wan Kenobi
-            </label>
-            <label>
-                <input type="radio" name="atendimento" value="Padmé" checked>Padmé Amidala
-            </label>
-            <label>
-                <input type="radio" name="atendimento" value="Qui-Gon Jim" checked>Qui-Gon Jim
-            </label>
-            <label>
-                <input type="radio" name="atendimento" value="Ja jar Binks" checked>Ja jar Binks
-            </label>
-            <label>
-                <input type="radio" name="atendimento" value="Yoda" checked>Yoda
-            </label>
-        </div><br>
-        <div class="campo">
-            <label>Qual epsódio você mais gostou?</label>
-            <select>
-                <option selected disabled value="">Selecione</option>
-                <option>Epsódio I</option>
-                <option>Epsódio II</option>
-                <option>Epsódio III</option>
-            </select>
-
-        </div class="campo">
-        <div>
+            <h1 id="titulo">Pesquisa</h1>
+            <p id="subtitulo">Complete com suas informações</p><br>
+        </div>
+        <form>
             <fieldset class="grupo">
                 <div class="campo">
-                    <label>Como você classifica os três primeiros epsódios da série?</label><br><br>
-                    <input type="checkbox" name"adicional1" value="péssimo">
-                    <label for="adicional1">Péssimo</label>
-                    <input type="checkbox" name"adicional2" value="regular">
-                    <label for="adicional2">Regular</label>
-                    <input type="checkbox" name"adicional3" value="bom">
-                    <label for="adicional3">Bom</label>
-                    <input type="checkbox" name"adicional4" value="otimo">
-                    <label for="adicional4">Ótimo</label>
-                    <input type="checkbox" name"adicional5" value="excelente">
-                    <label for="adicional5">Excelente</label>
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
                 </div>
-            </fieldset>
-        </div>
-        <div class="campo">
-            <label>Deseja deixar algum recado?</label><br><br>
-            <textarea rows="6" name="destaque"></textarea><br><br>
-            <button type="submit">Concluído</button>
-        </div>
-    </form>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+            </fieldset><br>
+            <div class="campo">
+                <label>Qual o seu personagem favorito na série?</label>
+                <label>
+                    <input type="radio" name="atendimento" value="Anakin" checked>Anakin Skywalker
+                </label>
+                <label>
+                    <input type="radio" name="atendimento" value="Obi-Wan" checked>Obi-Wan Kenobi
+                </label>
+                <label>
+                    <input type="radio" name="atendimento" value="Padmé" checked>Padmé Amidala
+                </label>
+                <label>
+                    <input type="radio" name="atendimento" value="Qui-Gon Jim" checked>Qui-Gon Jim
+                </label>
+                <label>
+                    <input type="radio" name="atendimento" value="Ja jar Binks" checked>Ja jar Binks
+                </label>
+                <label>
+                    <input type="radio" name="atendimento" value="Yoda" checked>Yoda
+                </label>
+            </div><br>
+            <div class="campo">
+                <label>Qual epsódio você mais gostou?</label>
+                <select>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Epsódio I</option>
+                    <option>Epsódio II</option>
+                    <option>Epsódio III</option>
+                </select>
+            </div>
+            <div class="campo">
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label>Como você classifica os três primeiros epsódios da série?</label><br>
+                        <input type="checkbox" name"adicional1" value="péssimo">
+                        <label for="adicional1">Péssimo</label>
+                        <input type="checkbox" name"adicional2" value="regular">
+                        <label for="adicional2">Regular</label>
+                        <input type="checkbox" name"adicional3" value="bom">
+                        <label for="adicional3">Bom</label>
+                        <input type="checkbox" name"adicional4" value="otimo">
+                        <label for="adicional4">Ótimo</label>
+                        <input type="checkbox" name"adicional5" value="excelente">
+                        <label for="adicional5">Excelente</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="campo">
+                <label>Deseja deixar algum recado?</label><br><br>
+                <textarea rows="6" name="destaque"></textarea><br><br>
+                <button type="submit">Concluído</button>
+            </div>
+        </form>
+    </div>
 </body>
-
 </html>
